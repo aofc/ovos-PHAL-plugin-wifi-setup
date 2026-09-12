@@ -118,7 +118,7 @@ from ovos_utils.process_utils import RuntimeRequirements
 class WifiSetupPlugin(PHALPlugin):
 
     def __init__(self, bus=None, config=None):
-        name = "ovos-PHAL-plugin-wifi-setup"
+        name = "202home-phal-plugin-wifi-setup"
         super().__init__(bus=bus, name=name, config=config)
         self.monitoring = False
         self.in_setup = False
